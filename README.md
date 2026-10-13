@@ -12,17 +12,17 @@
 
 堆叠过程中方块倒塌 → 策略基于倒塌后的观测自主重新抓取 → 对位微调 → 重新堆叠成功。全程无人工干预；系统中没有重试状态机或异常检测模块，恢复行为来自策略对观测变化的响应。
 
-<video src="https://raw.githubusercontent.com/jensen26443/piper-pi05-demo/main/block_stacking_retry_after_collapse.mp4" controls preload="metadata" muted></video>
+[![倒塌后自主恢复](./thumb_retry_after_collapse.jpg)](./block_stacking_retry_after_collapse.mp4)
 
-▶ 播放/下载：[block_stacking_retry_after_collapse.mp4](./block_stacking_retry_after_collapse.mp4)
+▶ 点击图片在线播放 · [直接打开视频文件](./block_stacking_retry_after_collapse.mp4)
 
 ## Demo 2 · 高精度对位与稳定保持
 
 按颜色组合完成堆叠（绿叠橙），桌面其余方块为干扰物；放置后稳定保持到结尾。
 
-<video src="https://raw.githubusercontent.com/jensen26443/piper-pi05-demo/main/block_stacking_stable_hold.mp4" controls preload="metadata" muted></video>
+[![高精度对位与稳定保持](./thumb_stable_hold.jpg)](./block_stacking_stable_hold.mp4)
 
-▶ 播放/下载：[block_stacking_stable_hold.mp4](./block_stacking_stable_hold.mp4)
+▶ 点击图片在线播放 · [直接打开视频文件](./block_stacking_stable_hold.mp4)
 
 ## 真机评测
 
