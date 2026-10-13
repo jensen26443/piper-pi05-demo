@@ -10,19 +10,19 @@
 
 ▶ **B 站完整版（两段连播）**：<https://www.bilibili.com/video/BV1sZWw6yEEF>
 
-## Demo 1 · 倒塌后自主恢复（无显式重试逻辑）
+## 方块掉落后自主重新抓取
 
 堆叠过程中方块倒塌 → 策略基于倒塌后的观测自主重新抓取 → 对位微调 → 重新堆叠成功。全程无人工干预；系统中没有重试状态机或异常检测模块，恢复行为来自策略对观测变化的响应。
 
-[![倒塌后自主恢复](./thumb_retry_after_collapse.jpg)](./block_stacking_retry_after_collapse.mp4)
+[![方块掉落后自主重新抓取](./thumb_retry_after_collapse.jpg)](./block_stacking_retry_after_collapse.mp4)
 
 ▶ 点击图片在线播放 · [直接打开视频文件](./block_stacking_retry_after_collapse.mp4)
 
-## Demo 2 · 高精度对位与稳定保持
+## 高精度对齐
 
 按颜色组合完成堆叠（绿叠橙），桌面其余方块为干扰物；放置后稳定保持到结尾。
 
-[![高精度对位与稳定保持](./thumb_stable_hold.jpg)](./block_stacking_stable_hold.mp4)
+[![高精度对齐](./thumb_stable_hold.jpg)](./block_stacking_stable_hold.mp4)
 
 ▶ 点击图片在线播放 · [直接打开视频文件](./block_stacking_stable_hold.mp4)
 
